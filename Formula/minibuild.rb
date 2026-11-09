@@ -1,7 +1,6 @@
 class Minibuild < Formula
   desc "Parallel, incremental build system with zero dependencies"
   homepage "https://github.com/SebTardif/MiniBuildRust"
-  version "0.3.0"
   license "MIT"
 
   on_macos do
