@@ -5,20 +5,20 @@ class Minibuild < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/SebTardif/MiniBuildRust/releases/download/v0.3.0/minibuild-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b029f11c74f5838b708dadb6318e30240100f199917fdf5a91b2ce79f2c2fef1"
+      url "https://github.com/SebTardif/MiniBuildRust/releases/download/v0.3.1/minibuild-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "6772e69a0ece2480da9668197f313cf8b2e40c96de99ae154738c76e7a91cfc2"
     end
 
     on_intel do
-      url "https://github.com/SebTardif/MiniBuildRust/releases/download/v0.3.0/minibuild-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3bf6ce7d0972712baaccaa3bb69da3358d6a9683c9ec9b2fb263bab8b08a239c"
+      url "https://github.com/SebTardif/MiniBuildRust/releases/download/v0.3.1/minibuild-v0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b38d9004ffa94070c824cd6bae8dbb0a926c98a93ab83bb491479d82b650368d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/SebTardif/MiniBuildRust/releases/download/v0.3.0/minibuild-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d841085004f32578fec08326c7677c0576c11101f9f87775b463b6946aeb775c"
+      url "https://github.com/SebTardif/MiniBuildRust/releases/download/v0.3.1/minibuild-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cc6131564e090b8c142f0a33c802b145665d642013647173e0fa7a7266248e56"
     end
   end
 
